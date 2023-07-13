@@ -31,13 +31,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +46,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689191407677</updated>
-      <workItem from="1689191409263" duration="1220000" />
+      <workItem from="1689191409263" duration="1922000" />
+      <workItem from="1689280071932" duration="931000" />
     </task>
     <task id="LOCAL-00001" summary="Сreating a playing field">
       <created>1689191905913</created>
@@ -55,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689191905913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Preparing the playing field for drawing the road and road markings">
+      <created>1689192744263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689192744263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,6 +71,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сreating a playing field" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сreating a playing field" />
+    <MESSAGE value="Preparing the playing field for drawing the road and road markings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparing the playing field for drawing the road and road markings" />
   </component>
 </project>
