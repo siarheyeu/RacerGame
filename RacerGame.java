@@ -10,6 +10,8 @@ public class RacerGame extends Game {
 
     public static final int ROADSIDE_WIDTH = 14;
 
+    private PlayerCar player;
+
     private RoadMarking roadMarking;
 
     public void initialize(){
@@ -20,12 +22,14 @@ public class RacerGame extends Game {
 
     private void createGame(){
         roadMarking = new RoadMarking();
+        player = new PlayerCar();
         drawScene();
     }
 
     private void drawScene(){
        drawField();
        roadMarking.draw(this);
+       player.draw(this);
     }
 
     private void drawField(){
