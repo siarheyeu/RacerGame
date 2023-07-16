@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0ee3648-d26c-4f6f-a68b-cb0ca4be5d25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RoadMarking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShapeMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RacerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/RacerGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameObject.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +28,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2SUBigCpVVm7VD06FsbQa58SNdZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -51,6 +57,9 @@
       <workItem from="1689367629792" duration="12000" />
       <workItem from="1689367661531" duration="1326000" />
       <workItem from="1689454394769" duration="359000" />
+      <workItem from="1689454777098" duration="106000" />
+      <workItem from="1689454903829" duration="181000" />
+      <workItem from="1689509701064" duration="1672000" />
     </task>
     <task id="LOCAL-00001" summary="Сreating a playing field">
       <created>1689191905913</created>
@@ -80,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689368253009</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added class GameObject for representing game objects">
+      <created>1689454795697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689454795697</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +107,7 @@
     <MESSAGE value="Preparing the playing field for drawing the road and road markings" />
     <MESSAGE value="Drawing the route" />
     <MESSAGE value="Override setCellColor method to limit coordinates within the game field" />
-    <option name="LAST_COMMIT_MESSAGE" value="Override setCellColor method to limit coordinates within the game field" />
+    <MESSAGE value="Added class GameObject for representing game objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added class GameObject for representing game objects" />
   </component>
 </project>
