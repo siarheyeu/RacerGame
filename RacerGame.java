@@ -58,6 +58,7 @@ public class RacerGame extends Game {
 
     private void moveAll(){
         roadMarking.move(player.speed);
+        player.move();
     }
 
     public void setCellColor(int x, int y, Color color){
@@ -65,5 +66,14 @@ public class RacerGame extends Game {
             return;
         }
         super.setCellColor(x, y, Color);
+    }
+
+    @Override
+    public void onKeyPress(Key key){
+        if (key == Key.RIGHT){
+            player.setDirection(Direction.RIGHT);
+        } else if (key == Key.LEFT) {
+            player.setDirection(Direction.LEFT);
+        }
     }
 }
