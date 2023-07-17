@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0ee3648-d26c-4f6f-a68b-cb0ca4be5d25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/road/RoadObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/road/RoadObjectType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/road/Thorn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RoadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/road/RoadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShapeMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShapeMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/road/RoadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/road/RoadManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +61,8 @@
       <workItem from="1689454394769" duration="359000" />
       <workItem from="1689454777098" duration="106000" />
       <workItem from="1689454903829" duration="181000" />
-      <workItem from="1689509701064" duration="10872000" />
+      <workItem from="1689509701064" duration="12079000" />
+      <workItem from="1689624184601" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="Сreating a playing field">
       <created>1689191905913</created>
@@ -138,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689526808172</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Thorn class and implemented createRoadObject method in RoadManager">
+      <created>1689535207143</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689535207143</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +169,7 @@
     <MESSAGE value="Added functionality to move road markings" />
     <MESSAGE value="Realization of the movement of the machine" />
     <MESSAGE value="Implement player car movement and road boundaries handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement player car movement and road boundaries handling" />
+    <MESSAGE value="Added Thorn class and implemented createRoadObject method in RoadManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Thorn class and implemented createRoadObject method in RoadManager" />
   </component>
 </project>
