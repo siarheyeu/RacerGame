@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0ee3648-d26c-4f6f-a68b-cb0ca4be5d25" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RacerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/RacerGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/road/RoadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/road/RoadManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,8 @@
       <workItem from="1689454777098" duration="106000" />
       <workItem from="1689454903829" duration="181000" />
       <workItem from="1689509701064" duration="12079000" />
-      <workItem from="1689624184601" duration="926000" />
+      <workItem from="1689624184601" duration="1148000" />
+      <workItem from="1689711911724" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="Сreating a playing field">
       <created>1689191905913</created>
@@ -141,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689535207143</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adding RoadManager implementation with random obstacle generation and lane positions">
+      <created>1689626825328</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689626825328</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +179,7 @@
     <MESSAGE value="Realization of the movement of the machine" />
     <MESSAGE value="Implement player car movement and road boundaries handling" />
     <MESSAGE value="Added Thorn class and implemented createRoadObject method in RoadManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Thorn class and implemented createRoadObject method in RoadManager" />
+    <MESSAGE value="Adding RoadManager implementation with random obstacle generation and lane positions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding RoadManager implementation with random obstacle generation and lane positions" />
   </component>
 </project>

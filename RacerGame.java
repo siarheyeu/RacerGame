@@ -13,6 +13,7 @@ public class RacerGame extends Game {
     private PlayerCar player;
 
     private RoadMarking roadMarking;
+    private RoadManager roadManager;
 
     public void initialize(){
         showGrid(false);
@@ -29,6 +30,7 @@ public class RacerGame extends Game {
     private void createGame(){
         roadMarking = new RoadMarking();
         player = new PlayerCar();
+        roadManager = new RoadManager();
         drawScene();
         setTurnTimer(40);
     }
@@ -37,6 +39,7 @@ public class RacerGame extends Game {
        drawField();
        roadMarking.draw(this);
        player.draw(this);
+       roadManager.draw(this);
     }
 
     private void drawField(){
