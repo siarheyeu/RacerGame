@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0ee3648-d26c-4f6f-a68b-cb0ca4be5d25" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/road/RoadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/road/RoadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RacerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/RacerGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <workItem from="1689711911724" duration="1743000" />
       <workItem from="1689798461582" duration="1415000" />
       <workItem from="1689886408748" duration="1590000" />
-      <workItem from="1689959624841" duration="1699000" />
+      <workItem from="1689959624841" duration="2793000" />
     </task>
     <task id="LOCAL-00001" summary="Сreating a playing field">
       <created>1689191905913</created>
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689889009367</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Implementation of the car collision check with an obstacle">
+      <created>1689961446053</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689961446053</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +213,7 @@
     <MESSAGE value="Refinement of the Road Manager class for controlling the drawing of objects and moving along the road." />
     <MESSAGE value="Displaying thorns on the screen" />
     <MESSAGE value="Adding code to delete passed items in RoadManager class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding code to delete passed items in RoadManager class" />
+    <MESSAGE value="Implementation of the car collision check with an obstacle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of the car collision check with an obstacle" />
   </component>
 </project>

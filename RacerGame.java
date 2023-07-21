@@ -15,6 +15,9 @@ public class RacerGame extends Game {
     private RoadMarking roadMarking;
     private RoadManager roadManager;
 
+    private boolean isGamestopped;
+
+    @Override
     public void initialize(){
         showGrid(false);
         setScreenSize(WIDTH, HEIGHT);
@@ -23,8 +26,13 @@ public class RacerGame extends Game {
 
     @Override
     public void onTurn(int step){
-        moveAll();
+        if (roadManager.checkCrush(player)) {
+            gameOver();
+            drawScene();
+            return;
+        }
         roadManager.generateNewRoadObjects(this);
+        moveAll();
         drawScene();
     }
 
@@ -34,6 +42,7 @@ public class RacerGame extends Game {
         roadManager = new RoadManager();
         drawScene();
         setTurnTimer(40);
+        isGamestopped = false;
     }
 
     private void drawScene(){
@@ -64,6 +73,13 @@ public class RacerGame extends Game {
         roadMarking.move(player.speed);
         roadManager.move(player.speed);
         player.move();
+    }
+
+    private void gameOver(){
+        isGamestopped = true;
+        showMessageDialog(Color.BLACK, "GAME OVER!", Color.RED, 50);
+        stopTurnTimer();
+        player.stop();
     }
 
     public void setCellColor(int x, int y, Color color){
