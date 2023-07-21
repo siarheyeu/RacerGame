@@ -70,5 +70,14 @@ public class RoadManager {
             }
         }
     }
+
+    public boolean checkCrush(PlayerCar playerCar){
+        for(RoadObject item : items){
+            if(item.isCollision(playerCar)){
+                return true;
+            }
+        }
+        return false;
+    }
 }
 
