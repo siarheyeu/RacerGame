@@ -66,7 +66,8 @@
       <workItem from="1689711911724" duration="1743000" />
       <workItem from="1689798461582" duration="1415000" />
       <workItem from="1689886408748" duration="1590000" />
-      <workItem from="1689959624841" duration="2793000" />
+      <workItem from="1689959624841" duration="3043000" />
+      <workItem from="1690059088188" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="Сreating a playing field">
       <created>1689191905913</created>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689961446053</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Implementation of stopping the game in case of loss">
+      <created>1689962683110</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689962683110</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +222,7 @@
     <MESSAGE value="Displaying thorns on the screen" />
     <MESSAGE value="Adding code to delete passed items in RoadManager class" />
     <MESSAGE value="Implementation of the car collision check with an obstacle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of the car collision check with an obstacle" />
+    <MESSAGE value="Implementation of stopping the game in case of loss" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of stopping the game in case of loss" />
   </component>
 </project>
