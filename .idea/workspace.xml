@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0ee3648-d26c-4f6f-a68b-cb0ca4be5d25" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/road/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RacerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/RacerGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/road/RoadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/road/RoadManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,8 @@
       <workItem from="1689798461582" duration="1415000" />
       <workItem from="1689886408748" duration="1590000" />
       <workItem from="1689959624841" duration="3043000" />
-      <workItem from="1690059088188" duration="387000" />
+      <workItem from="1690059088188" duration="418000" />
+      <workItem from="1690227445866" duration="940000" />
     </task>
     <task id="LOCAL-00001" summary="Сreating a playing field">
       <created>1689191905913</created>
@@ -188,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689962683110</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Implementation of restarting the game and increasing the speed">
+      <created>1690059493378</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690059493378</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +232,7 @@
     <MESSAGE value="Adding code to delete passed items in RoadManager class" />
     <MESSAGE value="Implementation of the car collision check with an obstacle" />
     <MESSAGE value="Implementation of stopping the game in case of loss" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of stopping the game in case of loss" />
+    <MESSAGE value="Implementation of restarting the game and increasing the speed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of restarting the game and increasing the speed" />
   </component>
 </project>

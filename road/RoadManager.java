@@ -17,7 +17,7 @@ public class RoadManager {
         if (type == RoadObjectType.THORN) {
             return new Thorn(x, y);
         } else {
-            return null;
+            return  new Car(type, x, y);
         }
     }
 
