@@ -11,6 +11,8 @@ public class RoadManager {
     public static final int RIGHT_BORDER = RacerGame.WIDTH - RacerGame.ROADSIDE_WIDTH;
     private static final int FIRST_LANE_POSITION = 16;
     private static final int FOURTH_LANE_POSITION = 44;
+
+    private static final int PLAYER_CAR_DISTANCE = 12;
     private List<RoadObject> items = new ArrayList<>();
 
     private RoadObject createRoadObject(RoadObjectType type, int x, int y) {
@@ -60,7 +62,9 @@ public class RoadManager {
     }
 
     public void generateNewRoadObjects(Game game) {
+
         generateThorn(game);
+        generateRegularCar(game);
     }
 
     private void deletePassedItems(){
@@ -78,6 +82,13 @@ public class RoadManager {
             }
         }
         return false;
+    }
+
+    private void generateRegularCar(Game game) {
+        if (game.getRandomNumber(100) < 30) {
+            int carTypeNumber = game.getRandomNumber(4);
+            addRoadObject(RoadObjectType.values()[carTypeNumber], game);
+        }
     }
 }
 
