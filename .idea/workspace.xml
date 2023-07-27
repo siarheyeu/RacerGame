@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0ee3648-d26c-4f6f-a68b-cb0ca4be5d25" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FinishLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/road/RoadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/road/RoadManager.java" afterDir="false" />
     </list>
@@ -70,7 +71,8 @@
       <workItem from="1690059088188" duration="418000" />
       <workItem from="1690227445866" duration="1478000" />
       <workItem from="1690318588206" duration="1186000" />
-      <workItem from="1690404528576" duration="533000" />
+      <workItem from="1690404528576" duration="2736000" />
+      <workItem from="1690491040383" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="Сreating a playing field">
       <created>1689191905913</created>
@@ -212,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690318795560</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Adding a car with a &quot;drunk&quot; driver">
+      <created>1690405198151</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1690405198151</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +259,7 @@
     <MESSAGE value="Implementation of restarting the game and increasing the speed" />
     <MESSAGE value="Adding different types of cars to the track" />
     <MESSAGE value="Adjusting the distance between oncoming cars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusting the distance between oncoming cars" />
+    <MESSAGE value="Adding a car with a &quot;drunk&quot; driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a car with a &quot;drunk&quot; driver" />
   </component>
 </project>
