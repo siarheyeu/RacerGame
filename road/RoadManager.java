@@ -15,6 +15,12 @@ public class RoadManager {
     private static final int PLAYER_CAR_DISTANCE = 12;
     private List<RoadObject> items = new ArrayList<>();
 
+    private int passedCarsCount = 0;
+
+    public int getPassedCarsCount() {
+        return passedCarsCount;
+    }
+
     private RoadObject createRoadObject(RoadObjectType type, int x, int y) {
         if (type == RoadObjectType.THORN) {
             return new Thorn(x, y);
@@ -69,10 +75,13 @@ public class RoadManager {
         generateRegularCar(game);
     }
 
-    private void deletePassedItems(){
-        for(RoadObject item : new ArrayList<>(items)){
-            if(item.y >= RacerGame.HEIGHT){
+    private void deletePassedItems() {
+        for (RoadObject item : new ArrayList<>(items)) {
+            if (item.y >= RacerGame.HEIGHT) {
                 items.remove(item);
+                if (item.type != RoadObjectType.THORN) {
+                    passedCarsCount++;
+                }
             }
         }
     }

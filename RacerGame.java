@@ -7,6 +7,8 @@ public class RacerGame extends Game {
     public static final int HEIGHT = 64;
     public static final int CENTER_X = WIDTH/2;
     public static final int ROADSIDE_WIDTH = 14;
+
+    private static final int RACE_GOAL_CARS_COUNT = 40;
     private PlayerCar player;
     private RoadMarking roadMarking;
     private RoadManager roadManager;
@@ -22,13 +24,16 @@ public class RacerGame extends Game {
     }
 
     @Override
-    public void onTurn(int step){
+    public void onTurn(int step) {
         if (roadManager.checkCrush(player)) {
             gameOver();
             drawScene();
             return;
         }
         roadManager.generateNewRoadObjects(this);
+        if (roadManager.getPassedCarsCount() >= RACE_GOAL_CARS_COUNT) {
+            finishLine.show();
+        }
         moveAll();
         drawScene();
     }
@@ -37,6 +42,7 @@ public class RacerGame extends Game {
         roadMarking = new RoadMarking();
         player = new PlayerCar();
         roadManager = new RoadManager();
+        finishLine = new FinishLine();
         drawScene();
         setTurnTimer(40);
         isGamestopped = false;
@@ -47,6 +53,7 @@ public class RacerGame extends Game {
        roadMarking.draw(this);
        player.draw(this);
        roadManager.draw(this);
+       finishLine.draw(this);
     }
 
     private void drawField(){
@@ -77,6 +84,7 @@ public class RacerGame extends Game {
         showMessageDialog(Color.BLACK, "GAME OVER!", Color.RED, 50);
         stopTurnTimer();
         player.stop();
+        finishLine.move(player.speed);
     }
 
     public void setCellColor(int x, int y, Color color){
