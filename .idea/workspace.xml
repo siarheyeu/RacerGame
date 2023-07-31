@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0ee3648-d26c-4f6f-a68b-cb0ca4be5d25" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ProgressBar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RacerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/RacerGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/road/RoadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/road/RoadManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,8 @@
       <workItem from="1690404528576" duration="2736000" />
       <workItem from="1690491040383" duration="997000" />
       <workItem from="1690577652210" duration="2180000" />
-      <workItem from="1690663641311" duration="636000" />
+      <workItem from="1690663641311" duration="1247000" />
+      <workItem from="1690835905394" duration="1045000" />
     </task>
     <task id="LOCAL-00001" summary="Сreating a playing field">
       <created>1689191905913</created>
@@ -237,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690578002945</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Checking the fulfillment of the victory conditions by recognizing the real number of cars that the player missed">
+      <created>1690664290479</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1690664290479</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +286,7 @@
     <MESSAGE value="Adding a car with a &quot;drunk&quot; driver" />
     <MESSAGE value="Creating the finish line" />
     <MESSAGE value="Implementation of drawing and movement of the finish line" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of drawing and movement of the finish line" />
+    <MESSAGE value="Checking the fulfillment of the victory conditions by recognizing the real number of cars that the player missed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checking the fulfillment of the victory conditions by recognizing the real number of cars that the player missed" />
   </component>
 </project>
